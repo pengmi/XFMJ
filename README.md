@@ -1,4 +1,4 @@
 # XFMJ
-2d game demo for cocos2dx
+cocos2dx+tiledmap
 源码在class文件夹
 资源在Resources文件夹
