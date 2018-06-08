@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="8">
+ <tileset firstgid="1" name="XFMJ" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="../material/XFMJ.png" width="2048" height="2048"/>
+  <tile id="0">
+   <properties>
+    <property name="colliable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1458">
+   <animation>
+    <frame tileid="1458" duration="100"/>
+    <frame tileid="1458" duration="100"/>
+    <frame tileid="1458" duration="100"/>
+    <frame tileid="1458" duration="100"/>
+    <frame tileid="1458" duration="100"/>
+    <frame tileid="1458" duration="100"/>
+    <frame tileid="1460" duration="100"/>
+    <frame tileid="1460" duration="100"/>
+    <frame tileid="1460" duration="100"/>
+    <frame tileid="1460" duration="100"/>
+    <frame tileid="1460" duration="100"/>
+    <frame tileid="1462" duration="100"/>
+    <frame tileid="1462" duration="100"/>
+    <frame tileid="1462" duration="100"/>
+    <frame tileid="1462" duration="100"/>
+    <frame tileid="1462" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Collision" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNlVEOwCAIQ7f7X3r/poW2wzkSExORhxX0us7Z/cFg3B1nUeJXeTHf6mzrXMlP4Sprp7ipf+q3+kxzWc2qNZVwEQvd52QvpX1R3f2ELoydclNNqrfLrX+H75xF1b1jOj4oh4SvaLiD23EUbmqsx//OfaNzVaNVv01wnbfEiYnidOsdt3vvHV26PJCvUxMsDvJV/jiWzzR34v9Ua8C9L8Uqrrs/4SOuOlAcdzj5Tmnu7km0YPYARRoA8w==
+  </data>
+ </layer>
+ <layer name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJy1lztuwzAMhgUDHuScocjcM2TxSbL1EO2RvGaql5wrWRILkmKa5uN3HgJ+JIBlfiRFifIQQhjerYZIehaE59Y7mm1JfB7j3pq1XHuob4h/RRD7Q3LZQR801kOXf8+dkbOwjf21y6Jjv5Nzfe7WrIefStxSrJWZdCzaE3k1kfzwuDf+/qSf1pZXT6fW5ooxM+53zFpwDWaKtXIt/7R1VuvKqMUqJF4pZm9IrKe5AWM+7BlyuWWedKahGrgvpa4GiSv5qewLb59L+be4Ys6UNeiNWuLcxNTyTHkIV413IzfN/49ZYzTWX+H2xE5SskGZGrcyKfvZuhrjrFM783mtaVyaa6hPlvmXmHUFuHUufcc6R0w2yy/lQjYQblgyFjxtHwF8zeaKAdhBudTmS/egMNtBck3jePX+hfQFKX9bub9Tz/3rFK5VE15dWflKZ9DEHA0uKunus/gvia0vzTMyaF/sG7nfeQPt+0iNwt8G7+Zu8C9x72o9Izw=
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <properties>
+   <property name="MapName" value="三清宫"/>
+  </properties>
+  <object id="1" name="NextMap" type="MapController" x="65" y="65" width="30.1515" height="30">
+   <properties>
+    <property name="CurMapName" value="2-1"/>
+    <property name="NextMapName" value="1-1"/>
+   </properties>
+  </object>
+  <object id="2" name="NextMap" type="MapController" x="416.5" y="898.333" width="157.5" height="27.6667">
+   <properties>
+    <property name="CurMapName" value="2-1"/>
+    <property name="NextMapName" value=""/>
+   </properties>
+  </object>
+  <object id="3" name="npc2" type="NPC" x="518.333" y="549.917" width="20" height="20">
+   <properties>
+    <property name="NPCID" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="4" name="npc1" type="NPC" x="229.523" y="677.5" width="20" height="20">
+   <properties>
+    <property name="NPCID" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="5" name="NextMap" type="MapController" x="514.25" y="258.432" width="91.7727" height="27.2727">
+   <properties>
+    <property name="CurMapName" value="2-1"/>
+    <property name="NextMapName" value="2-2"/>
+   </properties>
+  </object>
+  <object id="7" name="NextMap" type="MapController" x="321" y="545" width="30.1515" height="30">
+   <properties>
+    <property name="CurMapName" value="2-1"/>
+    <property name="NextMapName" value="2-3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Building" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJytl81OE1EUxy9NxdJBGpUPoy1lrb6CC11AjF0Y5WMDtA9AZOEjKJH4FaNQEoXCC6gL15rIyiga4wcsbIEXML6Cv+vMtYfLnZlb40l+udM7557/nHM/ZlrJKFWB+11tHiilHqr4Vvo+SvA39zMRH+jbgptH1F/b6mrzkd+fVHwrfT8n+Jv7Fy1eoXtPP5f6/zZbaF+7dAPaXugO8O32i3k8q9QJOAn9MACDMASnsqFPA91NS7daaOtqzSDS9bW1vFLXiH8dxmECJmEK1vNtPz2nUndd6FZor3joLojrFrEfo/EElmAZ6rACe/nDY1117jTf1b6Dv08z7kyQ7OPSTcp34XCXahKzpddCD7nRlojRyh7sawpdM6cSbXH53nZo6ucoEuco8b+g9VXXmL46bHO9kw3vFcVa1nP6mtpfEGjznV9jOu4YnM0pdc7ifC68p31ctkYdGn3ufDcd/rc8NH20W2ju9rnzNWvfNbdpmrb2nxypayMf7q8SNR8uuHWNlRg7DOWcu2a+pvfcDWLPW/Fd62oarRmYhSrUUrQvx/TfpaalINR96aG7is4aNGAdNnJhjDSz98B7oWvnK+ts5rSJTgt2YQ/2c2GMOFtMeJbnxH3hmW+RNVGCp5wJZdoRsTZd+9plZg/8JO4z+JWQr7FpdGZ6wvOnCrWY/ehrP0TstPPKNjm/SXVNGid1fc8rM7++dbbHXbXe7f/y/jX2jfn/DtuwI76ZxiJcZs5DV753LN+aOOd1vNHoup8cBmAQhjy/VTKe86vX5UbBfW8crQmYhCkPXfnNJfM1NdhjTvbFetiP0V1CaxnqsOKh2xBxZL6mBmXuj8Ro2fa2N93nkjr8nuv0/Wtb1zE/P5OTsU7X82K2s/44k/na3yM2b+BdFF+eHfq7W/enjTcx7Hx7M+nMwbxgTrQ+4zUy39Eg/H+WxpylJ/V9xlci3d8tKLNj
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,19 @@
+{
+
+	"id":5,
+	"name" : "剑魂",
+	"type":1,
+	"standurl" : "Combat/5/stand",
+	"attackurl" : "Combat/5/attack",
+	"hiturl" : "Combat/5/hit",
+	"intro" : "护剑人化为鬼魂,不愿散去!",
+	"skill":[1,2,3],
+	"level":5,
+	"life":400,
+	"magic":400,
+	"attack":50,
+	"defence":30,
+	"item":[{"id":1001,"rate":10},{"id":2001,"rate":10},{"id":6001,"rate":10}],
+	"exp":300
+	"money":400
+}

@@ -1,0 +1,21 @@
+{
+
+	"id":2002,
+	"name" : "培元丹",
+	"type":"forever",
+	"url" : "item/2002.png",
+	"intro" : "养气培元,增加功力!",
+		"addmaxlife":0,
+		"addlife":0,
+		"addmaxmagic":0,
+		"addmagic":0,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":5,
+		"adddefence":5,
+		"addhit":0,
+		"adddodge":0,
+		"price":1000
+		
+}

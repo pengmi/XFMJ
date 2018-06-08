@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" nextobjectid="3">
+ <tileset firstgid="1" name="XFMJ" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="../material/XFMJ.png" width="2048" height="2048"/>
+  <tile id="0">
+   <properties>
+    <property name="colliable" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Collision" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANGPFgQgBdDSMOcWL0EhInBtDaXlroRZYjJy6IjSt8dg6UXlLSGi77iA0rUuOInLyATz0AWgAANg==
+  </data>
+ </layer>
+ <layer name="Ground" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJx7ys3w4Ck3gwOZ+MFyVgYGUjBQjwKUHnC9L6AYxjfiJqxXnQ2hj1K9MAzS+wKL3pccDAmvgBikF5s+bHpg/nqFQy8u9cgY2c0gPszdyOqJCWdcbsalnxi9uNwN0vuCCHuxYWrpBWIGEnEDCAMADQTKWQ==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="1" name="MERCHANT1" type="NPC" x="225" y="97" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="2" name="NextMap" type="MapController" x="417" y="161" width="30" height="94">
+   <properties>
+    <property name="CurMapName" value="2-3"/>
+    <property name="NextMapName" value="2-1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Building" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOpjBjiolgURfKzLBgJiMDwywgng3E96H6jLhR1YVg0RsG1HsTqOcWEN9mRIh/4sLhKDR7CavCDsJw6A1jor29l4F2TAbiW0B8kwj7YKCQG4wb0GliwmoogmnMCEyJXlEgFkOiSdELjGtQnMFpGJAAsq8zQ2hqAACiZx5i
+  </data>
+ </layer>
+</map>

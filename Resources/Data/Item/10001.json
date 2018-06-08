@@ -1,0 +1,20 @@
+{
+
+	"id":10001,
+	"name" : "头环",
+	"type":"ornament",
+	"url" : "item/10001.png",
+	"intro" : "精致的工艺品!",
+		"addmaxlife":0,
+		"addlife":0,
+		"addmaxmagic":0,
+		"addmagic":0,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":5,
+		"adddefence":0,
+		"addhit":0,
+		"adddodge":0,
+		"price":100
+}

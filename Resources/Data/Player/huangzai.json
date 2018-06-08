@@ -1,0 +1,37 @@
+{
+
+	"name" : "柳随风",
+	"intro":"柳随风是新伏魔记的男主人公.",
+	"picurl" : "player/player.png",
+	"standurl" : "Combat/0/stand",
+	"attackurl" : "Combat/0/attack",
+	"skillurl" : "Combat/0/skill",
+	"hiturl" : "Combat/0/hit",
+	"status" :{
+		"level":1,
+		"levelexperience":0,
+		"needexperience":100,
+		"maxlife":300,
+		"life":300,
+		"maxmagic":300,
+		"magic":300,
+		"power":20,
+		"agility":20,
+		"intelligence":20,
+		"attack":20,
+		"defence":20,
+		"hit":80,
+		"dodge":10
+		},
+	
+	"equipments" :{
+		"weapon":0,
+		"head":0,
+		"clothes":0,
+		"cloack":0,
+		"glove":0,
+		"tasses":0,
+		"shoes":0,
+		"ornaments":0
+	}
+}

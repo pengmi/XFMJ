@@ -1,0 +1,19 @@
+{
+
+	"id":2,
+	"name" : "小金鱼",
+	"type":0,
+	"standurl" : "Combat/2/stand",
+	"attackurl" : "Combat/2/attack",
+	"hiturl" : "Combat/2/hit",
+	"intro" : "山上怎么会有小金鱼!",
+	"skill":[1],
+	"level":1,
+	"life":50,
+	"magic":50,
+	"attack":10,
+	"defence":10,
+	"item":[{"id":1001,"rate":10},{"id":2001,"rate":10}],
+	"exp":20,
+	"money":20
+}

@@ -1,0 +1,20 @@
+{
+
+	"id":7001,
+	"name" : "布手套",
+	"type":"glove",
+	"url" : "item/7001.png",
+	"intro" : "练剑也要记得呵护手掌!",
+		"addmaxlife":0,
+		"addlife":0,
+		"addmaxmagic":0,
+		"addmagic":0,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":0,
+		"adddefence":5,
+		"addhit":0,
+		"adddodge":0,
+		"price":100
+}

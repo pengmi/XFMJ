@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="60" tilewidth="32" tileheight="32" nextobjectid="4">
+ <tileset firstgid="1" name="XFMJ" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="../material/XFMJ.png" width="2048" height="2048"/>
+  <tile id="0">
+   <properties>
+    <property name="colliable" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Collision" width="30" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2MsKwCAMRFH9/5/upgspaB4zBRc3IBQaPEnaVcbIxXxP930n5uY5ylW8tY9TT5XaIjOq5VvXLs/lZnNXXzGVyPQfzdDhZ/LcUZl7Z06nU60zct1x8zfBxcXFxcXFxcXFxcXFxcXFxcXFxe24jt1t13WEulvO9qnss3f3ZO7+41+K6lJ6fAC45gC4
+  </data>
+ </layer>
+ <layer name="Ground" width="30" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztl0FuwzAMBA2fcvFTbOljgR/WQ/vEomgFMOvlkrJcFCh8IBIrEseklpQyTdP0/rjttttuy9vbH/WNdfm27eezLq9j1dhz1laNH+WrPbe5hcy1luGizxV8V2d8BbNzM9yyHHPIuEUwkZ/hVuNTxVsXHv8ZrvLHuMjAvclyUYdnuRuM9car2FG8m5mTibcn1xEzy8X1iou15sWayXMxc5lGVLze7z1cT5/ot70fvscZbnGYUZ4ts1fPza/H9uJDDs7LcjNs1K3Kfw93XY77jT7ZGXQFt7HRn80D9nK2F2e4rPetwGRxX8HFeCowmc56+yTTEatd1T96ubhW6VTtB767Zezku5c7plM1D58ZE7nKF9MM9hqWKxZj+74LLuOxu5e3fhexKi7Tjn0nb117Ru4+v471cMtyjNfrX8jJ5hmZtn6teTHv89EyXKxZllsVM+PuCe5meF4f8c4nL15rSiNYT5H2rUVc2+ujPYviZXWk8hxpy+5v5r/b6P5GvXCEq9auZsz2iyvijbjeXSPS+Iie2V0A7xq/Ea+qozLIjWpH1a/K1Wi/ivrGSJ4xp+quh/15RFeo4SzX2w88B6M+GfnHs1HN69FVpNEsN3Me9ewZ2sj5m9WSuvuM6Nn6Yefi0/ntijrC3Fn74n48bvvP9gmY4bek
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <properties>
+   <property name="MapName" value="后山山道"/>
+  </properties>
+  <object id="1" name="NextMap" type="MapController" x="417" y="129" width="158" height="30">
+   <properties>
+    <property name="CurMapName" value="1-4"/>
+    <property name="NextMapName" value="1-5"/>
+   </properties>
+  </object>
+  <object id="3" name="NextMap" type="MapController" x="417" y="1857" width="94" height="30">
+   <properties>
+    <property name="CurMapName" value="1-4"/>
+    <property name="NextMapName" value="1-2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Building" width="30" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztl0tuwjAQhg0NROquFAj3oQu2ffc4qUjLuu9eJ6i9QFugx+lvkYA12M6EJARoPumTguzMeJyJgWFNiCHDD3jkCNGCx7ANO7ALPdhz5nM4BsycUskpYp/Bc3gBL+EVvIY3znyOGjuI7lMJovGkGmMlD4j9CJ/gM3yBr/ANvjvL2DT3xBVi6i7HJEk1Ur4Q/xv+wAmcwpmzOo/uq1TmnjWF+G3aa9XRauD5wjbswC70Gvq5uvwecvfcdDmzQGvX5Q2IXPoH/PzcXs4Tbl5u/XSeTe67Tt8p2x5miYGe89F7fheuvaElgffVn2zpunGG+DhL/GmzmPWZ4tueZx77tcv9UjYn9fLy/tfcFdsPzrDF765NgjNs8bvLhJOih8qoQZJUQ1rS1Fw0/Q2uJWDkUv+j7AucuncV2cuxecE5rzj50vYS57yS7PPzrBBiECkZVs+6MOjeDvTTKnJgRK5HpokVa7FNvXu7JzkqzBTdb/eG67SMsy5E4U75vhgrsdXr+HNI8geWuLYxyWd9mSOMVK9j6Fic+1BZY9J+jImhQYkbqRvX3U9jq5hi6HLSe+o18zpNa7flNdWi1vQHKkTapw==
+  </data>
+ </layer>
+</map>

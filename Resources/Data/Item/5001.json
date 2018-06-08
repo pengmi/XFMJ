@@ -1,0 +1,20 @@
+{
+
+	"id":5001,
+	"name" : "布衣",
+	"type":"clothes",
+	"url" : "item/5001.png",
+	"intro" : "粗糙布衣,普通孩子的至宝!",
+		"addmaxlife":0,
+		"addlife":0,
+		"addmaxmagic":0,
+		"addmagic":0,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":0,
+		"adddefence":5,
+		"addhit":0,
+		"adddodge":0,
+		"price":200
+}

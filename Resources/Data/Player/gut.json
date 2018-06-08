@@ -1,0 +1,16 @@
+{
+	"taskconfig":{
+			"finished" :[0],
+	
+			"ongoing" :[]
+			},
+	"npcconfig":{
+			"talked" :[0],
+	
+			"disable" :[0]
+			},
+
+	"enemyconfig":{
+			"combat" :[0]
+			}
+}

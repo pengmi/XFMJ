@@ -1,0 +1,20 @@
+{
+
+	"id":1002,
+	"name" : "大黄",
+	"type":"medicine",
+	"url" : "item/1002.png",
+	"intro" : "有你不多,无你不少!",
+		"addmaxlife":0,
+		"addlife":0,
+		"addmaxmagic":0,
+		"addmagic":100,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":0,
+		"adddefence":0,
+		"addhit":0,
+		"adddodge":0,
+		"price":50
+}

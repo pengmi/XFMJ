@@ -1,0 +1,15 @@
+{
+
+	"id" : 8,
+
+	"name" : "±¶œ‰",
+
+	"picurl" : "npc/box.png",
+
+	"npctype":{"type":3,"typedata":[2002]},
+	"action" : 2,
+	
+	"taskidlist" :[0],
+	
+	"conv" :["∑¢œ÷±¶œ‰"]
+}

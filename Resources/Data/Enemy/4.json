@@ -1,0 +1,19 @@
+{
+
+	"id":4,
+	"name" : "人参精",
+	"type":0,
+	"standurl" : "Combat/4/stand",
+	"attackurl" : "Combat/4/attack",
+	"hiturl" : "Combat/4/hit",
+	"intro" : "快，快抓住它!",
+	"skill":[1],
+	"level":2,
+	"life":50,
+	"magic":50,
+	"attack":20,
+	"defence":10,
+	"item":[{"id":1001,"rate":10},{"id":2001,"rate":10}],
+	"exp":40,
+	"money":40
+}

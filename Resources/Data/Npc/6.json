@@ -1,0 +1,17 @@
+{
+
+	"id" : 6,
+
+	"name" : "½£Ä§",
+
+	"picurl" : "npc/down.png",
+
+	"npctype":{"type":0,"typedata":[0]},
+	
+	"action" : 0,
+	
+	"taskidlist" : [3],
+	
+	"conv" :["½£Ä§:??"]
+
+}

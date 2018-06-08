@@ -1,0 +1,16 @@
+{
+
+	"id" : 4,
+
+	"name" : "弟子",
+
+	"picurl" : "npc/down.png",
+
+	"npctype":{"type":0,"typedata":[0]},
+	"action" : 0,
+	
+	"taskidlist" : [0],
+	
+	"conv" :["弟子:道可道,非常道."]
+		
+}

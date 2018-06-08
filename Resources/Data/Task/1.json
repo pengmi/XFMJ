@@ -1,0 +1,32 @@
+{
+
+	"id" : 1,
+	
+	"orderlist" : [1],
+	
+	"startcondition":{
+						"finishedtaskid":0,
+						"ongoingtaskid":0
+						},
+	"finishcondition":{
+						"finishedtaskid":0,
+						"talkto":0,
+						"combatto":0
+						},
+	"reward" : {		"exp":100,
+						"item":0,
+						"deletenpc":1
+						},
+	
+	"intro" : "师父有事,正在天机阁等我.",
+	
+	"conv" :{
+				"begin":["道童:师兄,师兄,原来你在这里呀.", 
+					"道童:师父在到处找你,现在正在三清殿大发雷霆!!", 
+					"柳随风:大事不妙,我得赶紧回三清殿."],
+				"doing":["道童:..............", 
+					"道童:.................", 
+					"柳随风:......................."],
+				"finished":["任务完成","任务完成"]
+			}
+}

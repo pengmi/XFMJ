@@ -1,0 +1,16 @@
+{
+
+	"id" : 5,
+
+	"name" : "护林人",
+
+	"picurl" : "npc/down.png",
+
+	"npctype":{"type":0,"typedata":[0]},
+	"action" : 0,
+	
+	"taskidlist" : [0],
+	
+	"conv" :["护林人:这条山道是创派祖师天机子修的."]
+
+}

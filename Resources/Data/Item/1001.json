@@ -1,0 +1,20 @@
+{
+
+	"id":1001,
+	"name" : "两面针",
+	"type":"medicine",
+	"url" : "item/1001.png",
+	"intro" : "最普通的草药,居家旅行必备!",
+		"addmaxlife":0,
+		"addlife":100,
+		"addmaxmagic":0,
+		"addmagic":0,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":0,
+		"adddefence":0,
+		"addhit":0,
+		"adddodge":0,
+		"price":50
+}

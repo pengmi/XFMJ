@@ -1,0 +1,15 @@
+{
+
+	"id" : 1,
+
+	"name" : "道童",
+
+	"picurl" : "npc/up.png",
+
+	"npctype":{"type":0,"typedata":[0]},
+	"action" : 0,
+	
+	"taskidlist" :[1],
+	
+	"conv" :["道童:师兄好！"]
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="12" tilewidth="32" tileheight="32" nextobjectid="13">
+ <tileset firstgid="1" name="XFMJ" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="../material/XFMJ.png" width="2048" height="2048"/>
+  <tile id="0">
+   <properties>
+    <property name="colliable" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Collision" width="30" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgYGSgP2BEommNsdlLa4BuPyH/UtNebDQ6Gxufnvbi8ze+uMPlB2LsxaYPn1nobsFmNrXsxWY+IXsJ6aFHOqMHoEcZQa9wIxUAAFrXAH4=
+  </data>
+ </layer>
+ <layer name="Ground" width="30" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzbz8XAsH8AsBUUD6TdhDAt7KWG22hhLy3ii1phOJTspVZYD2Qck5IGSdFDz7w2XDAAAGn6cw==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <properties>
+   <property name="MapName" value="百草地"/>
+  </properties>
+  <object id="1" name="SpawnPoint" type="BornController" x="865" y="97" width="30" height="30"/>
+  <object id="5" name="NextMap" type="MapController" x="33.1667" y="33.447" width="29.5" height="29">
+   <properties>
+    <property name="CurMapName" value="1-1"/>
+    <property name="NextMapName" value="1-2"/>
+   </properties>
+  </object>
+  <object id="10" name="NextMap" type="MapController" x="928.966" y="256.966" width="30" height="30">
+   <properties>
+    <property name="CurMapName" value="1-1"/>
+    <property name="NextMapName" value="2-1"/>
+   </properties>
+  </object>
+  <object id="11" name="npc1" type="NPC" x="865" y="257" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Building" width="30" height="12">
+  <data encoding="base64" compression="zlib">
+   eJy9lE0KwkAMheMorQo9gSA9hkhXIv4cQg/jylN4l7rQHsuEzsN0zKAjtA8+GjptXjLptHJEFVPTsBw9btQvoe+dWpUFfdW66BJbt+KaPv1F56ytISRVsdpqdQXo1ZrDvypVrzFfMu6BU9Fi9fTg+Mk0zMq912ccz13XV/bY8sUMYr7LvLt30k/GuXJmylx8nm0A3rlO0voVP6DrF98d++2ZAzOO+EKN8sX3hTzW9y9+6Hnjn71lNikS38UPZ0hLaoz5YU3mLUhuxPrM4AwPhZ5h3/8qixd1rHGU
+  </data>
+ </layer>
+</map>

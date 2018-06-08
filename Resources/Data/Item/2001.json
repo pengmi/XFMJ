@@ -1,0 +1,21 @@
+{
+
+	"id":2001,
+	"name" : "金蝥丹",
+	"type":"forever",
+	"url" : "item/2001.png",
+	"intro" : "金蝥炼成,活气化血!",
+		"addmaxlife":50,
+		"addlife":50,
+		"addmaxmagic":50,
+		"addmagic":50,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":0,
+		"adddefence":0,
+		"addhit":0,
+		"adddodge":0,
+		"price":1000
+		
+}

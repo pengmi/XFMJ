@@ -1,0 +1,20 @@
+{
+
+	"id":6001,
+	"name" : "丝绸批风",
+	"type":"cloak",
+	"url" : "item/6001.png",
+	"intro" : "一般人家可穿不起这个!",
+		"addmaxlife":0,
+		"addlife":0,
+		"addmaxmagic":0,
+		"addmagic":0,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":0,
+		"adddefence":8,
+		"addhit":0,
+		"adddodge":0,
+		"price":500
+}

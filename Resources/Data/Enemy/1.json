@@ -1,0 +1,20 @@
+{
+
+	"id":1,
+	"name" : "小猴精",
+	"type":0,
+	"standurl" : "Combat/1/stand",
+	"attackurl" : "Combat/1/attack",
+	"hiturl" : "Combat/1/hit",
+	"intro" : "野生小猴子成精了!",
+	"skill":[1],
+	"level":1,
+	"life":50,
+	"magic":50,
+	"attack":10,
+	"defence":10,
+	"item":[{"id":1001,"rate":10},{"id":2001,"rate":10}],
+	"exp":20,
+	"money":20
+	
+}

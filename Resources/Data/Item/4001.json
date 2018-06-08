@@ -1,0 +1,20 @@
+{
+
+	"id":4001,
+	"name" : "布巾",
+	"type":"head",
+	"url" : "item/4001.png",
+	"intro" : "灰色头巾,防寒保暖!",
+		"addmaxlife":0,
+		"addlife":0,
+		"addmaxmagic":0,
+		"addmagic":0,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":0,
+		"adddefence":5,
+		"addhit":0,
+		"adddodge":0,
+		"price":100
+}

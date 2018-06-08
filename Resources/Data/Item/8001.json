@@ -1,0 +1,20 @@
+{
+
+	"id":8001,
+	"name" : "布裤",
+	"type":"tasses",
+	"url" : "item/8001.png",
+	"intro" : "普通的裤子，裤脚有些磨损!",
+		"addmaxlife":0,
+		"addlife":0,
+		"addmaxmagic":0,
+		"addmagic":0,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":0,
+		"adddefence":5,
+		"addhit":0,
+		"adddodge":0,
+		"price":100
+}

@@ -1,0 +1,11 @@
+{
+"1-1":{"isactive":0,"enemylist":[0],"scene":"combatscene0"},
+"1-2":{"isactive":1,"enemylist":[1,2,3],"scene":"combatscene1"},
+"1-3":{"isactive":1,"enemylist":[1,2,4],"scene":"combatscene1"},
+"1-4":{"isactive":1,"enemylist":[2,3,4],"scene":"combatscene1"},
+"1-5":{"isactive":1,"enemylist":[1,2,3,4],"scene":"combatscene2"},
+"2-1":{"isactive":0,"enemylist":[0],"scene":"combatscene0"},
+"2-2":{"isactive":0,"enemylist":[0],"scene":"combatscene0"},
+"2-3":{"isactive":0,"enemylist":[0],"scene":"combatscene0"},
+"3-1":{"isactive":1,"enemylist":[4,5,6],"scene":"combatscene3"}
+}

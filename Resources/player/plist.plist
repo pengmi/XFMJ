@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>up1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>up2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,30},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>up3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,60},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>right1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,90},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>right2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,120},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>right3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,150},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>left1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,180},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>left2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,210},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>left3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,240},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>down1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,270},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>down2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,300},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+			<key>down3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,330},{30,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{30,30}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{30,360}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>30</integer>
+			<key>height</key>
+			<integer>360</integer>
+		</dict>
+	</dict>
+</plist>

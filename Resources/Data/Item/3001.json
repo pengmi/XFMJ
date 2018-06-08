@@ -1,0 +1,20 @@
+{
+
+	"id":3001,
+	"name" : "铁剑",
+	"type":"weapon",
+	"url" : "item/3001.png",
+	"intro" : "随处可见的铁剑,并不锋利!",
+		"addmaxlife":0,
+		"addlife":0,
+		"addmaxmagic":0,
+		"addmagic":0,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":10,
+		"adddefence":0,
+		"addhit":0,
+		"adddodge":0,
+		"price":200
+}

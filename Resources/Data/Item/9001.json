@@ -1,0 +1,20 @@
+{
+
+	"id":9001,
+	"name" : "布鞋",
+	"type":"shoes",
+	"url" : "item/9001.png",
+	"intro" : "有些破旧的布鞋!",
+		"addmaxlife":0,
+		"addlife":0,
+		"addmaxmagic":0,
+		"addmagic":0,
+		"addpower":0,
+		"addagility":0,
+		"addintelligence":0,
+		"addattack":0,
+		"adddefence":5,
+		"addhit":0,
+		"adddodge":0,
+		"price":100
+}

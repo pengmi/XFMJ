@@ -1,0 +1,36 @@
+{
+
+	"id" : 3,
+	
+	"orderlist" : [2],
+	
+	"startcondition":{
+						"finishedtaskid":0,
+						"ongoingtaskid":2
+						},
+	"finishcondition":{
+						"finishedtaskid":0,
+						"talkto":0,
+						"combatto":6
+						},
+	"reward" : {		"exp":100,
+						"item":0,
+						"deletenpc":6
+						},
+	
+	"intro" : "洗剑池上遇到剑魔,艰难击败他.",
+	
+	"conv" :{
+				"begin":["剑魔:是谁在这里!",
+						"柳随风:看招.",
+						"剑魔:不自量力!"],
+				"doing":["吼!!!"],
+				"finished":["柳随风:哼哼！", 
+					"剑魔:吼!!!",  
+					"剑魔兵解",
+					"柳随风:好险!!" ,
+					"取得封印符咒",
+					"柳随风:我得马上回去交差!!" 
+					]
+		}
+}

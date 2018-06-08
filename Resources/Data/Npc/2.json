@@ -1,0 +1,16 @@
+{
+
+	"id" : 2,
+
+	"name" : "天道",
+
+	"picurl" : "npc/down.png",
+
+	"npctype":{"type":0,"typedata":[0]},
+	"action" : 0,
+	
+	"taskidlist" : [2],
+	
+	"conv" :["天道:天地之道,极则反,盈则损."]
+
+}

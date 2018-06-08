@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" nextobjectid="5">
+ <properties>
+  <property name="Name" value="伐木场"/>
+ </properties>
+ <tileset firstgid="1" name="XFMJ" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="../material/XFMJ.png" width="2048" height="2048"/>
+  <tile id="0">
+   <properties>
+    <property name="colliable" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Collision" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy9lUsOACEMQp37X3pWbhpa6YeSGDeGhx/iOX19ZkzL+iNWhhv5ZfeS5VZUzTbB7cjez+S5q7iVgbhqbXE7++3cdeTNcBl+lDnyfnkq+qbsjZdf/Z5RTze4Xg51j+688XchrpeJ9WayIa/Xuq7YnBNdyeoHVr0AsA==
+  </data>
+ </layer>
+ <layer name="Ground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzbwMHAsIFK+A8X9cwabPaC7MCGh5LfcPmB1n4biHRBr/ihNIypFfbUsIOe6XqwxdeovfSxl95pDN0eYu0eyDw8UOnBlgs3pra91twMDDZAbEdn/1YD7ayho70AolDHBQ==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <properties>
+   <property name="MapName" value="伐木场"/>
+  </properties>
+  <object id="1" name="NextMap" type="MapController" x="609" y="33" width="30" height="30">
+   <properties>
+    <property name="CurMapName" value="1-2"/>
+    <property name="NextMapName" value="1-4"/>
+   </properties>
+  </object>
+  <object id="2" name="NextMap" type="MapController" x="65" y="577" width="94" height="30">
+   <properties>
+    <property name="CurMapName" value="1-2"/>
+    <property name="NextMapName" value="1-1"/>
+   </properties>
+  </object>
+  <object id="3" name="NextMap" type="MapController" x="897" y="449" width="30" height="30">
+   <properties>
+    <property name="CurMapName" value="1-2"/>
+    <property name="NextMapName" value="1-3"/>
+   </properties>
+  </object>
+  <object id="4" name="npc1" type="NPC" x="737" y="289" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Building" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy9lVEOgjAQRAcN5Ycr6GXkE+/kpwaP4IWMHkoqToi1Dbtb6iSbafjYyetuSl8BTwAPyHwY6xrxo8Nb0j5tFe+T8lQfStqnV/IuSctrkZQtJvJalHNHIa+UweopXimD1ZmfM1+LmJ8zX4kOQfGbhDdnb932N7+DjDdnb29uKoq52vfKon0z33GHb9613qtE7omczP7HPvtc73U93bl0vmtp18zn0rxkJWc4X6m0+8dc5vGs5dXu33kDXMa6f4q5Md7S/4YhwVv63+D9BdQZzKw=
+  </data>
+ </layer>
+</map>

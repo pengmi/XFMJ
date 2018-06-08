@@ -1,0 +1,27 @@
+loadmap 1 2 15 0   
+MOVIE 1 2 0 0 2
+CREATEACTOR 1 4 3
+NPCSTEP 0 0 1
+say 1 "小蝴蝶，不要跑……"
+NPCSTEP 0 1 1
+say 1 "小蝴蝶，不要跑……"
+NPCSTEP 0 2 1
+say 1 "小蝴蝶，快出来……"
+NPCSTEP 0 3 1
+say 1 "小蝴蝶……,哪去了？？"
+CREATENPC 1 2 17 6
+MOVE 1 17 3
+MOVE 1 18 3
+say 0 "师兄，原来你在这啊，师父找不到你，正在无机阁大发雷霆呢，你快点到无机阁见师傅吧。"
+say 1 "好，你先走，我就去。"
+MOVE 1 17 3
+MOVE 1 17 6
+DELETENPC 1
+NPCSTEP 0 0 1
+NPCSTEP 0 1 1
+NPCSTEP 0 2 1
+NPCSTEP 0 3 1
+say 1 "咦，我的小蝴蝶哪去了？？"
+say 1 "还是先去见师父吧。"
+setevent 1
+SETMONEY 500

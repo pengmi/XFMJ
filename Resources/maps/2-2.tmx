@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="18" height="18" tilewidth="32" tileheight="32" nextobjectid="14">
+ <tileset firstgid="1" name="XFMJ" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="../material/XFMJ.png" width="2048" height="2048"/>
+  <tile id="0">
+   <properties>
+    <property name="colliable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index">
+    <object id="3" x="3" y="2" width="25" height="26"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Collision" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8gJHK5jDSAOOzixg3YFM7HMzBFz7Y5HDpxZcGcMmhu4lSQKx78OnHZg4pZlGilxgzqWUOOX4iNn8SMoMWGAASkwB6
+  </data>
+ </layer>
+ <layer name="Ground" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxT42ZgUKMCzgPiGQwIvIyLgeExN34MUoOsJw9qzg0GBCZkBgwj64GZ85RCDDNHk5MyTKw5n5ipY85HKplDLfdQK3yINSeTAzvWAmJtJKyDQx3MHD1O7HgzMybGpm7UHPqZsw6IZ3JRhkFmAAC8JIZV
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <properties>
+   <property name="MapName" value="三清殿"/>
+  </properties>
+  <object id="1" name="NextMap" type="MapController" x="224.5" y="513" width="158.5" height="30">
+   <properties>
+    <property name="CurMapName" value="2-2"/>
+    <property name="NextMapName" value="2-1"/>
+   </properties>
+  </object>
+  <object id="2" name="npc1" type="NPC" x="384.917" y="449.083" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="3" name="npc1" type="NPC" x="385.22" y="416.902" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="4" name="npc1" type="NPC" x="385.182" y="385" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="8" name="npc1" type="NPC" x="193.015" y="416.77" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="9" name="npc1" type="NPC" x="192.977" y="384.868" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="10" name="npc1" type="NPC" x="192.712" y="448.951" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="11" name="npc1" type="NPC" x="289.152" y="321.03" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="13" name="box" type="NPC" x="161" y="129" width="30" height="30">
+   <properties>
+    <property name="NPCID" type="int" value="9"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Building" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzFkTEOgkAQRScRpQYaK+BKQK8exSsAvXolwMIChaP4LEzWdUEWY5zkNbPz3w6LyG/rspS9oWdd69W7h55VnRfzznL2LaA07F2xQw2NtkvoiEQQO8os+Roag8dzRXwI3Nf+hvwWdorH4y4fAsP3J+RTyDTPgfwRToonIZ9CZvDk5AsoNc+NfAe94snJF1AaPBX5GhrNE/IGEcTaW1xH/kM7cNaNZL6tfobblHn0bFy28/+q555Tdh2aVfuffFPn5tYd8isx0Q==
+  </data>
+ </layer>
+</map>
